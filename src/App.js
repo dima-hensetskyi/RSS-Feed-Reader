@@ -1,25 +1,35 @@
-import logo from './logo.svg';
+import { Container } from 'react-bootstrap';
+import { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+
+import { initializeApp } from './redux/actions/appActions';
+import { Routers } from './Routers';
+import Preloader from './components/common/preloader';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const dispatch = useDispatch();
+	const feedsUrl = useSelector((state) => state.feeds?.feedsUrl);
+	const userId = useSelector((state) => state.auth.userId);
+	const initialized = useSelector((state) => state.app?.initialized);
+
+	useEffect(() => {
+		dispatch(initializeApp(feedsUrl, userId));
+	}, []);
+
+	if (!initialized) {
+		return (
+			<Container className="d-flex justify-content-center align-items-center preloader">
+				<Preloader />
+			</Container>
+		);
+	}
+	return (
+		<>
+			<Routers />
+		</>
+	);
 }
 
 export default App;
