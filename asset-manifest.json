@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/RSS-Feed-Reader/static/css/main.f5731133.chunk.css",
+    "main.js": "/RSS-Feed-Reader/static/js/main.39c5b4db.chunk.js",
+    "main.js.map": "/RSS-Feed-Reader/static/js/main.39c5b4db.chunk.js.map",
+    "runtime-main.js": "/RSS-Feed-Reader/static/js/runtime-main.8b68b872.js",
+    "runtime-main.js.map": "/RSS-Feed-Reader/static/js/runtime-main.8b68b872.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/RSS-Feed-Reader/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.2de4a55f.chunk.js": "/RSS-Feed-Reader/static/js/2.2de4a55f.chunk.js",
+    "static/js/2.2de4a55f.chunk.js.map": "/RSS-Feed-Reader/static/js/2.2de4a55f.chunk.js.map",
+    "static/js/3.116666f7.chunk.js": "/RSS-Feed-Reader/static/js/3.116666f7.chunk.js",
+    "static/js/3.116666f7.chunk.js.map": "/RSS-Feed-Reader/static/js/3.116666f7.chunk.js.map",
+    "index.html": "/RSS-Feed-Reader/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/RSS-Feed-Reader/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.f5731133.chunk.css.map": "/RSS-Feed-Reader/static/css/main.f5731133.chunk.css.map",
+    "static/js/2.2de4a55f.chunk.js.LICENSE.txt": "/RSS-Feed-Reader/static/js/2.2de4a55f.chunk.js.LICENSE.txt",
+    "static/media/add.bad99776.svg": "/RSS-Feed-Reader/static/media/add.bad99776.svg",
+    "static/media/article-icon.2d38f426.svg": "/RSS-Feed-Reader/static/media/article-icon.2d38f426.svg",
+    "static/media/copy-link.561ea8b9.svg": "/RSS-Feed-Reader/static/media/copy-link.561ea8b9.svg",
+    "static/media/delete.1129c53a.svg": "/RSS-Feed-Reader/static/media/delete.1129c53a.svg",
+    "static/media/favorite.8d60aaea.svg": "/RSS-Feed-Reader/static/media/favorite.8d60aaea.svg",
+    "static/media/favorite_fill.66089a9f.svg": "/RSS-Feed-Reader/static/media/favorite_fill.66089a9f.svg",
+    "static/media/App.css": "/RSS-Feed-Reader/static/media/tasks-promo-illustration-4.6fe5a03f.png",
+    "static/media/social-icon-1.ec82c3c4.svg": "/RSS-Feed-Reader/static/media/social-icon-1.ec82c3c4.svg",
+    "static/media/social-icon-2.89669268.svg": "/RSS-Feed-Reader/static/media/social-icon-2.89669268.svg",
+    "static/media/social-icon-3.12173db8.svg": "/RSS-Feed-Reader/static/media/social-icon-3.12173db8.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b68b872.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.2de4a55f.chunk.js",
+    "static/css/main.f5731133.chunk.css",
+    "static/js/main.39c5b4db.chunk.js"
+  ]
+}
