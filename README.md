@@ -11,3 +11,5 @@ Example: [Funny or Die](https://www.funnyordie.com/)
 URL -> "https://www.funnyordie.com/rss/index.xml"
 
 ## DEMO
+
+[RSS FEED READER](https://dima-hensetskyi.github.io/RSS-Feed-Reader/)
